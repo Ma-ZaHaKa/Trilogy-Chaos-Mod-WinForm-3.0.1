@@ -1,0 +1,89 @@
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csprojAssemblyReference.cache
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.Forms.Form1.resources
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.Properties.Resources.resources
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csproj.GenerateResource.cache
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csproj.CoreCompileInputs.cache
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\GTAChaos.exe.config
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\GTAChaos.exe
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\GTAChaos.pdb
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Costura.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Flurl.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Flurl.Http.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Logging.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Options.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Primitives.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Win32.Registry.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.Asio.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.Core.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.Midi.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.Vorbis.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.Wasapi.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.WinForms.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.WinMM.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Newtonsoft.Json.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NVorbis.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Serilog.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Serilog.Extensions.Logging.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\SuperSocket.ClientEngine.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Buffers.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Diagnostics.DiagnosticSource.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Memory.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Numerics.Vectors.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Security.AccessControl.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Security.Principal.Windows.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Threading.Tasks.Extensions.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.ValueTuple.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.Api.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.Api.Enums.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.Api.Interfaces.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.Api.Models.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.Client.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.Client.Enums.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.Client.Models.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\TwitchLib.PubSub.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\websocket-sharp.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\WebSocket4Net.dll
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Costura.pdb
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Costura.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Flurl.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Flurl.Http.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Logging.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Options.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Extensions.Primitives.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Microsoft.Win32.Registry.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NAudio.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Newtonsoft.Json.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\NVorbis.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Serilog.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\Serilog.Extensions.Logging.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Buffers.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Diagnostics.DiagnosticSource.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Memory.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Numerics.Vectors.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Security.AccessControl.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Security.Principal.Windows.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.Threading.Tasks.Extensions.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\System.ValueTuple.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\bin\Release\websocket-sharp.xml
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csproj.Fody.CopyLocal.cache
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csproj.CopyComplete
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.exe
+E:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.pdb
+C:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csprojAssemblyReference.cache
+C:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.Forms.Form1.resources
+C:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.Properties.Resources.resources
+C:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csproj.GenerateResource.cache
+C:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\Trilogy Chaos Mod.csproj.CoreCompileInputs.cache
+C:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.exe
+C:\TMP\Trilogy Chaos Mod 3.0.1\Trilogy Chaos Mod\obj\Release\GTAChaos.pdb
