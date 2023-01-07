@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\MaZaHaKa\Desktop\chaos-mod-3-0-1_1662193835_813494\Trilogy Chaos Mod.exe-->
+  <Import Project="packages\Costura.Fody.5.7.0\build\Costura.Fody.props" Condition="Exists('packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B137BEE2-D602-4522-806B-FDD0DBFC9778}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>GTAChaos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>GTAChaos</RootNamespace>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Costura, Version=5.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Costura.Fody.5.7.0\lib\netstandard1.0\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl, Version=3.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Flurl.3.0.6\lib\net472\Flurl.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl.Http, Version=3.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Flurl.Http.3.2.4\lib\net472\Flurl.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.6.0.0\lib\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Options.6.0.0\lib\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.6.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Win32.Registry.4.7.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.2.1.0\lib\net472\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Asio, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Asio.2.1.0\lib\netstandard2.0\NAudio.Asio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Core, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Core.2.1.0\lib\netstandard2.0\NAudio.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Midi, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Midi.2.1.0\lib\netstandard2.0\NAudio.Midi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Vorbis, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Vorbis.1.5.0\lib\netstandard2.0\NAudio.Vorbis.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Wasapi, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Wasapi.2.1.0\lib\netstandard2.0\NAudio.Wasapi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinForms, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.WinForms.2.1.0\lib\net472\NAudio.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinMM, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.WinMM.2.1.0\lib\netstandard2.0\NAudio.WinMM.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NVorbis, Version=0.10.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NVorbis.0.10.4\lib\net45\NVorbis.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>packages\Serilog.2.3.0\lib\net46\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Extensions.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>packages\Serilog.Extensions.Logging.2.0.2\lib\net461\Serilog.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine, Version=0.10.0.0, Culture=neutral, PublicKeyToken=ee9af13f57f00acc, processorArchitecture=MSIL">
+      <HintPath>packages\SuperSocket.ClientEngine.Core.0.10.0\lib\net45\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Collections.Specialized.4.3.0\lib\net46\System.Collections.Specialized.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.6.0.0\lib\net461\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.3\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.NameResolution.4.3.0\lib\net46\System.Net.NameResolution.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Security, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Security.4.3.0\lib\net46\System.Net.Security.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.AccessControl, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.AccessControl.4.7.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Principal.Windows.4.7.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TwitchLib.Api, Version=2.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.Api.2.1.3\lib\net452\TwitchLib.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitchLib.Api.Enums, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.Api.Enums.1.0.0\lib\net452\TwitchLib.Api.Enums.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitchLib.Api.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.Api.Interfaces.1.0.0\lib\net452\TwitchLib.Api.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitchLib.Api.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.Api.Models.1.0.0\lib\net452\TwitchLib.Api.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitchLib.Client, Version=2.1.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.Client.2.1.4\lib\net452\TwitchLib.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitchLib.Client.Enums, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.Client.Enums.1.0.0\lib\net452\TwitchLib.Client.Enums.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitchLib.Client.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.Client.Models.1.0.0\lib\net452\TwitchLib.Client.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitchLib.PubSub, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\TwitchLib.PubSub.2.0.3\lib\net452\TwitchLib.PubSub.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp, Version=1.0.1.0, Culture=neutral, PublicKeyToken=5660b08a1845a91e, processorArchitecture=MSIL">
+      <HintPath>packages\WebSocketSharp-netstandard.1.0.1\lib\net45\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net, Version=0.15.2.11, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL">
+      <HintPath>packages\WebSocket4Net.0.15.2\lib\net45\WebSocket4Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GTAChaos_ProcessedByFody.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Utils\AudioPlayer.cs" />
+    <Compile Include="Utils\Category.cs" />
+    <Compile Include="Utils\Config.cs" />
+    <Compile Include="Utils\RapidFireEventArgs.cs" />
+    <Compile Include="Utils\IStreamConnection.cs" />
+    <Compile Include="Utils\IVotingElement.cs" />
+    <Compile Include="Utils\Location.cs" />
+    <Compile Include="Utils\ConnectionFailedEventArgs.cs" />
+    <Compile Include="Utils\ConnectionSuccessfulEventArgs.cs" />
+    <Compile Include="Utils\UsernameInUseEventArgs.cs" />
+    <Compile Include="Utils\HostLeftChannelEventArgs.cs" />
+    <Compile Include="Utils\VersionMismatchEventArgs.cs" />
+    <Compile Include="Utils\UserJoinedEventArgs.cs" />
+    <Compile Include="Utils\UserLeftEventArgs.cs" />
+    <Compile Include="Utils\ChatMessageEventArgs.cs" />
+    <Compile Include="Utils\TimeUpdateEventArgs.cs" />
+    <Compile Include="Utils\EffectEventArgs.cs" />
+    <Compile Include="Utils\VotesEventArgs.cs" />
+    <Compile Include="Utils\MessageType.cs" />
+    <Compile Include="Utils\MessageConnect.cs" />
+    <Compile Include="Utils\MessageConnectionSuccessful.cs" />
+    <Compile Include="Utils\MessageVersionMismatch.cs" />
+    <Compile Include="Utils\MessageUserJoined.cs" />
+    <Compile Include="Utils\MessageUserLeft.cs" />
+    <Compile Include="Utils\MessageChatMessage.cs" />
+    <Compile Include="Utils\MessageTimeUpdate.cs" />
+    <Compile Include="Utils\MessageEffect.cs" />
+    <Compile Include="Utils\MessageVotes.cs" />
+    <Compile Include="Utils\Sync.cs" />
+    <Compile Include="Utils\RandomHandler.cs" />
+    <Compile Include="Utils\Shared.cs" />
+    <Compile Include="Utils\TwitchChatConnection.cs" />
+    <Compile Include="Utils\DebugConnection.cs" />
+    <Compile Include="Utils\TwitchPollConnection.cs" />
+    <Compile Include="Utils\VehicleNames.cs" />
+    <Compile Include="Utils\SocketMessageEventArgs.cs" />
+    <Compile Include="Utils\WebsocketHandler.cs" />
+    <Compile Include="Utils\YouTubeChatConnection.cs" />
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Program.cs" />
+    <Compile Include="Effects\DisplayNameType.cs" />
+    <Compile Include="Effects\AbstractEffect.cs" />
+    <Compile Include="Effects\WeightedRandomBag.cs" />
+    <Compile Include="Effects\EffectDatabase.cs" />
+    <Compile Include="Effects\SpawnVehicleEffect.cs" />
+    <Compile Include="Effects\FakeCrashEffect.cs" />
+    <Compile Include="Effects\DiscountRapidFireEffect.cs" />
+    <Compile Include="Effects\HyperRapidFireEffect.cs" />
+    <Compile Include="Effects\RapidFireEffect.cs" />
+    <Compile Include="Effects\FakeTeleportEffect.cs" />
+    <Compile Include="Effects\TeleportationEffect.cs" />
+    <Compile Include="Effects\WeatherEffect.cs" />
+    <Compile Include="Effects\FunctionEffect.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="assets\audio\effect_beyblade.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_big_butts.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_discount_rapid_fire.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_get_busted.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_get_wasted.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_honk_vehicle_0.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_honk_vehicle_1.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_honk_vehicle_2.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_honk_vehicle_3.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_honk_vehicle_4.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_its_rewind_time.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_kickflip.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_lets_take_a_break.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_long_necks.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_oh_hey_tanks.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_ped_size_super_tiny.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_quake_fov.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_reload_autosave.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_replace_all_text_simpleflips.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_ring_ring.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_rotating_peds.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_send_vehicles_to_space.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_spawn_table.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_spawn_tree.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_struck_by_truck.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_suicide.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_superhot.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_textures_its_morbin_time.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_the_mirror_dimension.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_underwater_view.ogg" />
+    <EmbeddedResource Include="assets\audio\effect_upside_down_screen.ogg" />
+    <EmbeddedResource Include="costura.metadata" />
+    <EmbeddedResource Include="Forms\Form1.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Fody.6.5.5\build\Fody.targets" Condition="Exists('packages\Fody.6.5.5\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Fody.6.5.5\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Fody.6.5.5\build\Fody.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets'))" />
+    <Error Condition="!Exists('packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Costura.Fody.5.7.0\build\Costura.Fody.props'))" />
+    <Error Condition="!Exists('packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Costura.Fody.5.7.0\build\Costura.Fody.targets'))" />
+  </Target>
+  <Import Project="packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
+  <Import Project="packages\Costura.Fody.5.7.0\build\Costura.Fody.targets" Condition="Exists('packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" />
+</Project>
